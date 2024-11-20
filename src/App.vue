@@ -1,21 +1,19 @@
 <script setup>
-import HelloWorld from "./components/HelloWorld.vue";
+import Login from "./view/Login.vue";
+import SignUp from "./view/SignUp.vue";
+import JobPost from "./view/JobPost.vue";
+import JobList from "./view/JobList.vue";
+import JobDetail from "./view/JobDetail.vue";
+import UserProfile from "./view/UserProfile.vue";
 </script>
 
 <template>
-    <div>
-        <h1>Vue3 Supabase</h1>
-    </div>
+    <Login />
+    <SignUp />
+    <JobPost />
+    <JobList />
+    <JobDetail />
+    <UserProfile />
 </template>
 
-<style scoped lang="scss">
-div {
-    h1 {
-        color: red;
-
-        &:hover {
-            color: blue;
-        }
-    }
-}
-</style>
+<style lang="scss" scoped></style>
